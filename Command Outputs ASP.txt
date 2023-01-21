@@ -1,0 +1,25 @@
+>git clone https://github.com/asp19e/ISC_5935_Intro_to_GitHub.git
+Cloning into 'ISC_5935_Intro_to_GitHub'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+>cd ISC_5935_Intro_to_GitHub
+>git add ./Test-ASP.md
+>git commit
+[main 66cd420] Added the line confirming the commit.
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+>git push
+Username for 'https://github.com': asp19e
+Password for 'https://asp19e@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 348 bytes | 348.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/asp19e/ISC_5935_Intro_to_GitHub.git
+   37ce222..66cd420  main -> main
+>
